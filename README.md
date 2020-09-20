@@ -9,6 +9,8 @@ This assignment will test your ability to:
 - write to the DOM
 - work with arrays
 
+Most of the work will be done in the `index.js` file, though there will also be one tweak to the `index.html` file.
+
 ## 1. Get started
 
 - fork this repo
@@ -16,7 +18,7 @@ This assignment will test your ability to:
 
 ## 2. Generate the person's bio
 
-Get the values the user entered in the `input` elements and use them to update the output `span` elements.
+Get the values the user entered in the `input` elements and use them to update the output `span` elements in the `generateBio` function. This function is already set up to get called when the button is clicked (via the form's `onsubmit` event).
 
 Hints:
 
@@ -53,7 +55,7 @@ Hints:
 
 ## Bonus Challenge
 
-Using separate ids for each `input` and output `span` (e.g. `word-01`, `output-word-01`) is very explicit and understandable, but it also feels a bit verbose. We could use arrays instead:
+Using separate ids for each `input` and output `span` (e.g. `word-01`, `output-word-01`) is very explicit and understandable, but it also feels a bit verbose. We could use arrays instead to simplify things, because the order of the inputs is the same as the order of the outputs:
 
 - use [document.querySelectorAll](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) to get an array of all of the inputs, and another array of all of the outputs (hint: use the class name instead of the id)
 - use a [for loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration) to assign the values from the inputs to the outputs
