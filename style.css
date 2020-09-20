@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: gray;
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Ranchers", cursive;
+  font-weight: normal;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 16px 16px 32px 16px;
+  background: white;
+}
+
+.portrait {
+  max-width: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+#bio {
+  margin-top: 16px;
+}
+
+.labeled-input {
+  margin: 1rem 0;
+}
+
+.labeled-input label {
+  display: block;
+}
+
+.labeled-input input {
+  margin-top: 0.2rem;
+  width: 100%;
+}
+
+button[type="submit"] {
+  font-family: "Ranchers", cursive;
+  font-size: 1.5rem;
+  width: 100%;
+  padding: 16px;
+}
+
+.output {
+  font-weight: bold;
+}
+
+h2 .output {
+  font-weight: normal;
+}
+
+@media (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Ranchers&display=swap" rel="stylesheet">
+  <title>Who Am I?</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Who am I?</h1>
+    <a href="https://thispersondoesnotexist.com" target="_blank">
+      <img class="portrait" src="https://thispersondoesnotexist.com/image" alt="this person does not exist" />
+    </a>
+
+    <form id="words">
+      <h2>Help me figure it out!</h2>
+      <div class="labeled-input">
+        <label for="word-01">Adjective</label>
+        <input type="text" name="word-01" id="word-01" placeholder="Enter an adjective" />
+      </div>
+      <div class="labeled-input">
+        <label for="word-02">Number</label>
+        <input type="text" name="word-02" id="word-02" placeholder="Enter a number" />
+      </div>
+      <div class="labeled-input">
+        <label for="word-03">Geographical Location</label>
+        <input type="text" name="word-03" id="word-03" placeholder="Enter a location" />
+      </div>
+      <div class="labeled-input">
+        <label for="word-04">Exclamation</label>
+        <input type="text" name="word-04" id="word-04" placeholder="Enter an exclamation" />
+      </div>
+      <div class="labeled-input">
+        <label for="word-05">Number</label>
+        <input type="text" name="word-05" id="word-05" placeholder="Enter a number" />
+      </div>
+      <div class="labeled-input">
+        <label for="word-06">Adjective</label>
+        <input type="text" name="word-06" id="word-06" placeholder="Enter an adjective" />
+      </div>
+      <div class="labeled-input">
+        <label for="word-07">Adjective</label>
+        <input type="text" name="word-07" id="word-07" placeholder="Enter an adjective" />
+      </div>
+      <div class="labeled-input">
+        <label for="word-08">Plural Noun</label>
+        <input type="text" name="word-08" id="word-08" placeholder="Enter a plural noun" />
+      </div>
+      <div class="labeled-input">
+        <label for="word-09">Adverb</label>
+        <input type="text" name="word-09" id="word-09" placeholder="Enter an adverb" />
+      </div>
+      <div class="labeled-input">
+        <label for="word-10">Adjective</label>
+        <input type="text" name="word-10" id="word-10" placeholder="Enter an adjective" />
+      </div>
+      <div class="labeled-input">
+        <label for="word-11">Person</label>
+        <input type="text" name="word-11" id="word-11" placeholder="Enter a person in the room" />
+      </div>
+      <div class="labeled-input">
+        <label for="word-12">Noun</label>
+        <input type="text" name="word-12" id="word-12" placeholder="Enter a noun" />
+      </div>
+      <div class="labeled-input">
+        <label for="word-13">Plural Noun</label>
+        <input type="text" name="word-13" id="word-13" placeholder="Enter a plural noun" />
+      </div>
+      <div class="labeled-input">
+        <label for="word-14">Past-Tense Verb</label>
+        <input type="text" name="word-14" id="word-14" placeholder="Enter a past-tense verb" />
+      </div>
+      <div class="labeled-input">
+        <label for="word-15">Noun</label>
+        <input type="text" name="word-15" id="word-15" placeholder="Enter a noun" />
+      </div>
+      <div class="labeled-input">
+        <label for="word-16">Number</label>
+        <input type="text" name="word-16" id="word-16" placeholder="Enter a number" />
+      </div>
+      <div class="submit">
+        <button type="submit">Generate my bio</button>
+      </div>
+    </form>
+
+    <div id="bio">
+      <h2 id="name">I am</h2>
+      <p>I am a/an <span class="output" id="output-word-01">adjective</span> person. I was born <span class="output"
+          id="output-word-02">number</span> years ago in <span class="output" id="output-word-03">geographical
+          location</span>. When my father first saw me, he said, "<span class="output"
+          id="output-word-04">exclamation</span>!" I am <span class="output" id="output-word-05">number</span> feet
+        tall, have <span class="output" id="output-word-06">adjective</span> brown eyes, and a/an <span class="output"
+          id="output-word-07">adjective</span> complexion. My hobby is collecting <span class="output"
+          id="output-word-08">plural noun</span>. I always speak <span class="output" id="output-word-09">adverb</span>,
+        and I have made several <span class="output" id="output-word-10">adjective</span> motion pictures. I am married
+        to <span class="output" id="output-word-11">person in room</span>, the well-known Hollywood <span class="output"
+          id="output-word-12">noun.</span> I have given away thousands of <span class="output"
+          id="output-word-13">plural noun</span> to charity. My proudest moment was when I <span class="output"
+          id="output-word-14">past-tense verb</span> a <span class="output" id="output-word-15">noun</span> in less than
+        <span class="output" id="output-word-16">number</span> days.</p>
+    </div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+
+</html>
