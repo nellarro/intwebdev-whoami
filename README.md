@@ -11,6 +11,11 @@ This assignment will test your ability to:
 
 Most of the work will be done in the `index.js` file, though there will also be one tweak to the `index.html` file.
 
+Refer to the two codepens from class as needed:
+
+- https://codepen.io/nselikoff/pen/oNxaQqq
+- https://codepen.io/nselikoff/pen/RwaeEEW
+
 ## 1. Get started
 
 - fork this repo
