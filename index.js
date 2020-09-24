@@ -3,8 +3,8 @@ async function getRandomName() {
     "https://namey.muffinlabs.com/name.json?count=1&with_surname=true&frequency=common";
   const response = await fetch(url);
   const names = await response.json();
-  // TODO: finish this function (see the README for details)
-  console.log(names[0], 'hi jenell')
+  // TODO: finish this function (see the README for details
+  console.log(names, response)
   return names[0]
 }
 
@@ -12,6 +12,7 @@ async function setName() {
   try {
     const randomName = await getRandomName();
     // TODO: finish this function (see the README for details)
+    document.querySelector('#name').insertAdjacentHTML('beforeend', ' ' + randomName)
   } catch (err) {
     console.error(err);
   }
@@ -31,6 +32,8 @@ words.onsubmit = function generateBio(event) {
   for(let i = 0; i < arrOfInputs.length; i++) {
     arrOfSpans[i].innerHTML = arrOfInputs[i].value
   }
+
+  setName()
 
   console.log("Done!");
 };
