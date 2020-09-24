@@ -4,7 +4,8 @@ async function getRandomName() {
   const response = await fetch(url);
   const names = await response.json();
   // TODO: finish this function (see the README for details)
-
+  console.log(names[0], 'hi jenell')
+  return names[0]
 }
 
 async function setName() {
@@ -27,9 +28,9 @@ words.onsubmit = function generateBio(event) {
   let arrOfInputs = document.querySelectorAll('input')
   let arrOfSpans = document.querySelectorAll('span')
 
-  console.log(arrOfInputs)
   for(let i = 0; i < arrOfInputs.length; i++) {
     arrOfSpans[i].innerHTML = arrOfInputs[i].value
   }
+
   console.log("Done!");
 };
