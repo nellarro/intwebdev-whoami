@@ -4,7 +4,6 @@ async function getRandomName() {
   const response = await fetch(url);
   const names = await response.json();
   // TODO: finish this function (see the README for details
-  console.log(names, response)
   return names[0]
 }
 
